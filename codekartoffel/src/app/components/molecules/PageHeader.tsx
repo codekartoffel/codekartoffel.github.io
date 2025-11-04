@@ -39,7 +39,7 @@ export default function PageHeader() {
           <ClickableText className='mt-auto mb-auto'><a href='Resume_MarcusPanozzo_10_22_2025.pdf'>Resume (PDF)</a></ClickableText>
           <div className="mt-auto mb-auto h-full w-[1px] mt-[4px] mb-[4px] bg-gray-200 mx-[4px]"></div>
           <ClickableText className='mt-auto mb-auto' onClick={() => router.push('https://www.linkedin.com/in/marcus-panozzo/')}><i className='fa-brands fa-linkedin fa-xl'></i></ClickableText>
-          <ClickableText className='mt-auto mb-auto' onClick={() => router.push('https://codekartoffel.github.io')}><i className='fa-brands fa-github fa-xl'></i></ClickableText>
+          <ClickableText className='mt-auto mb-auto' onClick={() => router.push('https://github.com/codekartoffel')}><i className='fa-brands fa-github fa-xl'></i></ClickableText>
         </div>
       </div>      
     </header>
