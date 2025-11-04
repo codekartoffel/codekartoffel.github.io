@@ -1,7 +1,8 @@
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";
-
+import eslintConfigPrettier from "eslint-config-prettier/flat";
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -18,8 +19,10 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
-    ],
+    ]
   },
+  eslintConfigPrettier,
+  eslintPluginPrettierRecommended,
 ];
 
 export default eslintConfig;
