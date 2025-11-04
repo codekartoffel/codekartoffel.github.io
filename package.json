@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "eslint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next/build"
+    "deploy": "gh-pages -d .next/build/chunks"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
